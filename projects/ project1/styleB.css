@@ -1,0 +1,61 @@
+html,
+body {
+    height: 100%;
+}
+
+.boxs {
+    display: flex;
+    box flex-direction: row;
+
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    text-align: left;
+
+    margin-right: 10px;
+
+}
+
+.box-final {
+    /* display: flexbox;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    text-align: left; */
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}
+
+.letter {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.circles {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-right: 10px; */
+}
+
+.circle {
+    display: inline-block;
+    background-color: #D0D0FF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
