@@ -27,7 +27,9 @@
                 <div class="letter">F</div>
             </div>
         </div>
-        <script>
+        <script type="text/javascript">
+            // use a CDATA section to include JavaScript within XHTML
+            //<![CDATA[
             const boxContainers = document.querySelectorAll(".box");
             boxContainers.forEach((boxContainer) => {
                 const circlesContainer = document.createElement("div");
@@ -43,7 +45,7 @@
                     circlesContainer,
                     boxContainer.firstChild,
                 );
-            });
+            }); //]]>
         </script>
     </body>
 </html>

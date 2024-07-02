@@ -19,9 +19,13 @@ body {
     width: 100px;
     height: 150px;
     text-align: left;
-
     margin-right: 10px;
 
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
 }
 
 .box-final {
